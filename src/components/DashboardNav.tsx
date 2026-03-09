@@ -46,7 +46,7 @@ export default function DashboardNav({ userEmail, displayName, userId, walletAdd
             <div className="flex items-center">
                 <div className="w-64 shrink-0 px-6 py-4 border-r border-[var(--border-color)]">
                     <Link href="/" className="flex items-center gap-2">
-                        <span className="text-xl font-bold gradient-text">Zivy</span>
+                        <span className="text-xl font-bold gradient-text">Mintellectuals</span>
                     </Link>
                 </div>
                 <div className="flex-1 flex items-center justify-end px-6 py-4 gap-4">

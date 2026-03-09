@@ -183,8 +183,8 @@ export default function BuyCoinsModal({
                                             key={q}
                                             onClick={() => setAmount(q)}
                                             className={`py-2.5 rounded-xl text-sm font-semibold transition-all ${amount === q
-                                                    ? "bg-gradient-to-r from-[#667eea] to-[#764ba2] text-white shadow-lg shadow-violet-500/25"
-                                                    : "bg-[var(--bg-secondary)] text-secondary border border-[var(--border-color)] hover:border-[var(--border-hover)] hover:text-primary"
+                                                ? "bg-gradient-to-r from-[#667eea] to-[#764ba2] text-white shadow-lg shadow-violet-500/25"
+                                                : "bg-[var(--bg-secondary)] text-secondary border border-[var(--border-color)] hover:border-[var(--border-hover)] hover:text-primary"
                                                 }`}
                                         >
                                             {q}
@@ -256,7 +256,7 @@ export default function BuyCoinsModal({
                             </button>
 
                             <p className="text-xs text-muted text-center mt-3">
-                                Paid with USDT from your Zivy wallet. Gas is covered.
+                                Paid with USDT from your Mintellectuals wallet. Gas is covered.
                             </p>
                         </>
                     )}

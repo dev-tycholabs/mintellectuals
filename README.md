@@ -1,8 +1,8 @@
-# Zivy
+# Mintellectuals
 
 **Network. Earn. Grow.**
 
-Zivy is a full-stack expert-access platform where professionals monetize their knowledge through a personal token economy. Every expert launches their own ERC-20 coin on Ethereum Sepolia — seekers purchase those coins to unlock interactions: direct messages, audio calls, and video calls, all gated by on-chain token balances.
+Mintellectuals is a full-stack expert-access platform where professionals monetize their knowledge through a personal token economy. Every expert launches their own ERC-20 coin on Ethereum Sepolia — seekers purchase those coins to unlock interactions: direct messages, audio calls, and video calls, all gated by on-chain token balances.
 
 Think [Intro.co](https://intro.co) meets [friend.tech](https://friend.tech) — paid expert consultations powered by personal tokens instead of flat fees.
 
@@ -27,7 +27,7 @@ Think [Intro.co](https://intro.co) meets [friend.tech](https://friend.tech) — 
 
 ## The Concept
 
-Existing platforms like Intro.co and Clarity.fm connect people with experts through paid consultations at fixed rates. Superpeer extends this with subscriptions and digital products. Zivy takes a different approach:
+Existing platforms like Intro.co and Clarity.fm connect people with experts through paid consultations at fixed rates. Superpeer extends this with subscriptions and digital products. Mintellectuals takes a different approach:
 
 - **Personal coins** — Every expert launches their own ERC-20 token with custom pricing
 - **Token-gated access** — Seekers buy an expert's coin to unlock messaging, audio, and video calls
@@ -112,7 +112,7 @@ The public-facing marketing site at `/`:
 
 Dark and light modes powered by CSS custom properties on a `data-theme` attribute.
 
-- `ThemeProvider` wraps the app, persists choice to `localStorage` (`Zivy-theme` key)
+- `ThemeProvider` wraps the app, persists choice to `localStorage` (`Mintellectuals-theme` key)
 - Respects `prefers-color-scheme` on first visit
 - `ThemeToggle` renders a sun/moon icon button
 
@@ -299,7 +299,7 @@ Glassmorphism cards, gradient text (violet → purple → pink), floating backgr
 ## Project Structure
 
 ```
-Zivy/
+Mintellectuals/
 ├── .env.local                          # Environment variables (see below)
 ├── package.json                        # Dependencies and scripts
 ├── next.config.ts                      # Next.js configuration
@@ -442,7 +442,7 @@ Zivy/
 
 ## Database Schema
 
-Zivy uses Supabase PostgreSQL. The following tables are inferred from the codebase:
+Mintellectuals uses Supabase PostgreSQL. The following tables are inferred from the codebase:
 
 ### `profiles`
 
@@ -731,7 +731,7 @@ NEXT_PUBLIC_LIVEKIT_URL=            # LiveKit WebSocket URL (wss://...)
 
 ```bash
 git clone <your-repo-url>
-cd Zivy
+cd Mintellectuals
 npm install
 ```
 
@@ -800,4 +800,4 @@ npm start
 
 ## License
 
-© 2026 Zivy. All rights reserved.
+© 2026 Mintellectuals. All rights reserved.

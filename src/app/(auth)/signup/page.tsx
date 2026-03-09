@@ -61,7 +61,7 @@ export default function SignupPage() {
 
             {/* Logo */}
             <Link href="/" className="fixed top-6 left-6 z-50">
-                <span className="text-xl font-bold gradient-text">Zivy</span>
+                <span className="text-xl font-bold gradient-text">Mintellectuals</span>
             </Link>
 
             {/* Signup card */}
@@ -73,7 +73,7 @@ export default function SignupPage() {
                             Create your account
                         </h1>
                         <p className="text-secondary">
-                            Join Zivy and start connecting
+                            Join Mintellectuals and start connecting
                         </p>
                     </div>
 

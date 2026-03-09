@@ -5,7 +5,7 @@ export default function Footer() {
         <footer className="py-8 px-6 border-t border-[var(--border-color)]">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
                 <div className="flex items-center gap-2">
-                    <span className="text-sm font-semibold gradient-text">Zivy</span>
+                    <span className="text-sm font-semibold gradient-text">Mintellectuals</span>
                     <span className="text-sm text-muted">© 2026 All rights reserved.</span>
                 </div>
 

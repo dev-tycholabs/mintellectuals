@@ -93,7 +93,7 @@ export async function POST(request: Request) {
                 const tz = expert.timezone || 'UTC';
                 const event = await createCalendarEvent(expert.google_calendar_token, {
                     summary: `Meeting with ${booker?.full_name || 'Someone'} (Pending)`,
-                    description: note || `Booked via Zivy — awaiting confirmation`,
+                    description: note || `Booked via Mintellectuals — awaiting confirmation`,
                     startDateTime: toTZDateTime(date, start_time, tz),
                     endDateTime: toTZDateTime(date, end_time, tz),
                     timeZone: tz,
@@ -209,7 +209,7 @@ export async function PATCH(request: Request) {
                         await updateCalendarEvent(expert.google_calendar_token, appointment.google_event_id, {
                             status: 'confirmed',
                             summary: `Meeting with ${booker?.full_name || 'Someone'}`,
-                            description: 'Confirmed via Zivy',
+                            description: 'Confirmed via Mintellectuals',
                         });
                     } else if (status === 'cancelled') {
                         await deleteCalendarEvent(expert.google_calendar_token, appointment.google_event_id);

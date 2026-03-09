@@ -11,7 +11,7 @@ export default function Hero() {
             <div className="max-w-4xl mx-auto text-center relative z-10">
                 {/* Main headline */}
                 <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-                    <span className="gradient-text">Zivy</span>
+                    <span className="gradient-text">Mintellectuals</span>
                 </h1>
 
                 {/* Tagline */}

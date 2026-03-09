@@ -20,7 +20,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
 
     useEffect(() => {
         setMounted(true);
-        const stored = localStorage.getItem("Zivy-theme") as Theme;
+        const stored = localStorage.getItem("Mintellectuals-theme") as Theme;
         if (stored) {
             setTheme(stored);
             document.documentElement.setAttribute("data-theme", stored);
@@ -35,7 +35,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     useEffect(() => {
         if (mounted) {
             document.documentElement.setAttribute("data-theme", theme);
-            localStorage.setItem("Zivy-theme", theme);
+            localStorage.setItem("Mintellectuals-theme", theme);
         }
     }, [theme, mounted]);
 

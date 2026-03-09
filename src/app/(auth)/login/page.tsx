@@ -69,7 +69,7 @@ function LoginContent() {
 
             {/* Logo */}
             <Link href="/" className="fixed top-6 left-6 z-50">
-                <span className="text-xl font-bold gradient-text">Zivy</span>
+                <span className="text-xl font-bold gradient-text">Mintellectuals</span>
             </Link>
 
             {/* Login card */}
@@ -81,7 +81,7 @@ function LoginContent() {
                             Welcome back
                         </h1>
                         <p className="text-secondary">
-                            Sign in to your Zivy account
+                            Sign in to your Mintellectuals account
                         </p>
                     </div>
 
